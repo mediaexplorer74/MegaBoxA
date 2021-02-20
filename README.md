@@ -2,7 +2,7 @@ MegaBox 2.0 beta
 Simple Mega.nz appx file downloader & launcher (special for W10M fans))
 
 ![screenshot1](shot1.png "screenshot1")
-![screenshot2](shot1.png "screenshot1")
+![screenshot2](shot2.png "screenshot1")
 
 
 # Quick Start (for your own experiments and code modifications)

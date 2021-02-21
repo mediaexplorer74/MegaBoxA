@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to MegaBox GitHub Page (draft)
+
+MegaBox 2.0 beta Simple Mega.nz appx file downloader & launcher. It's special for W10M fans :)
 
 You can use the [editor on GitHub](https://github.com/mediaexplorer74/MegaBox/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 

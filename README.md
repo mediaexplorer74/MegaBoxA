@@ -8,9 +8,9 @@ Simple Mega's file downloader & launcher (special for Windows 10 Mobile Telegram
 
 Used Mega Storage URL : https://mega.nz/folder/SKZxnQAR#EvlQqjMIVQwoxcje9r-jAw
 
-![screenshot1](shot1.png "screenshot1")
+![screenshot1](sshot1.png "screenshot1")
 
-![screenshot2](shot2.png "screenshot1")
+![screenshot2](sshot2.png "screenshot1")
 
 
 #Features

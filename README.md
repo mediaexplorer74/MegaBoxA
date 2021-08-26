@@ -24,6 +24,11 @@ Used Mega Storage URL : https://mega.nz/folder/SKZxnQAR#EvlQqjMIVQwoxcje9r-jAw
 - App Search (sloooowest, but works)))
 
 
+#System requirements
+
+- Minimal Windows 10 Mobile os's build: 15063
+
+
 
 # Quick Start for your own experiments and my code modifications
 - Clone the repo from GitHub

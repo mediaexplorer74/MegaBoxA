@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaBox.Android", "MegaBox\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaBox.UWP", "MegaBox\MegaBox.UWP\MegaBox.UWP.csproj", "{461F3B83-2F4F-43F4-9FB9-7CEB809F73E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaBox.iOS", "MegaBox\Timeline.iOS\MegaBox.iOS.csproj", "{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaBox.iOS", "MegaBox\MegaBox.iOS\MegaBox.iOS.csproj", "{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MegaBox", "MegaBox\MegaBox\MegaBox.csproj", "{71D50C93-DDB7-4C68-818F-2D3E507E8600}"
 EndProject

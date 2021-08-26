@@ -13,7 +13,7 @@
     </ContentPage.Resources>
 
    <StackLayout>
-        <Label x:Name="textLabel" Text="MegaBox v2.0 Beta (mediaexplorer; Feb, 20 2021)" FontSize="Micro" />
+        <Label x:Name="textLabel" Text="MegaBox v1.0 (Windows 10 Mobile mega-repo)" FontSize="Micro" />
     <Entry x:Name="loginEntry" Placeholder="Search" TextChanged="loginEntry_TextChanged" />
 
     <!--ItemTapped="timelineListView_ItemTapped"-->
@@ -26,7 +26,7 @@
 
         <!--ListView.Header>
             <StackLayout Padding="20,40,0,30">
-                <Label Style="{StaticResource PageHeaderLabel}" Text="MegaBox v2.0 Beta" />
+                <Label Style="{StaticResource PageHeaderLabel}" Text="MegaBox v1.0 Beta" />
                     <Label Style="{StaticResource SubHeaderLabel}" Text="(mediaexplorer; Feb, 20 2021)" />
             </StackLayout>
         </ListView.Header-->
@@ -37,7 +37,7 @@
                     <RowDefinition Height="64" />
                     <RowDefinition Height="100" />
                 </Grid.RowDefinitions>
-                <Image Grid.RowSpan="2" Aspect="AspectFill" HorizontalOptions="Fill" VerticalOptions="Start" Source="YogaImage.png" />
+                <Image Grid.RowSpan="2" Aspect="AspectFill" HorizontalOptions="Fill" VerticalOptions="Start" Source="MainBox1.png" />
                 <Image Aspect="Fill" Grid.RowSpan="2" HorizontalOptions="Fill" Source="FadeToWhite.png" />
             </Grid>
         </ListView.Footer>

@@ -95,7 +95,8 @@ namespace MegaBox
             {
                 // phase 1 
 
-                megaStorageURL = "https://mega.nz/#F!SYtigRjB!EhNuflDF9fefSXuolgn0Rw"; // Prod (W10M)
+                //megaStorageURL = "https://mega.nz/folder/YdlWiaxD#7qcjO0mtYukRBCuDzoIwGA"; // Dev (test storage)
+                megaStorageURL = "https://mega.nz/folder/SKZxnQAR#EvlQqjMIVQwoxcje9r-jAw"; // Prod (W10M's group repo)
 
                 // phase 2 
                 // // Start loading Data from Mega.Nz...

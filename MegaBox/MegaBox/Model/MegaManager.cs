@@ -163,9 +163,19 @@ namespace MegaBox.Model
                         Image = "Assets/" + MegaManager.GetIconCategoryName(Contact.MegaFCategory[i].Trim()),
                         FileSize = MegaClient.arNodes[i].Size, // todo
                         IsLast = Contact.isEndOfDir[i], // todo
+                        DateModified = MegaClient.arNodes[i].ModificationDate.ToString(),
                     }
                 ); 
             }
+
+            // RND: Sorting 
+            items.Sort(delegate (DataItem x, DataItem y)
+            {
+                if (x.DateModified == null && y.DateModified == null) return 0;
+                else if (x.DateModified == null) return -1;
+                else if (y.DateModified == null) return 1;
+                else return x.DateModified.CompareTo(y.DateModified);
+            });
 
             return items;
         }
@@ -200,6 +210,7 @@ namespace MegaBox.Model
                                 Image = "Assets/" + MegaManager.GetIconCategoryName(Contact.MegaFCategory[i].Trim()),
                                 FileSize = MegaClient.arNodes[i].Size, // todo
                                 IsLast = Contact.isEndOfDir[i], // todo
+                                DateModified = MegaClient.arNodes[i].ModificationDate.ToString(),
                             }
                         );
                     }
@@ -223,11 +234,22 @@ namespace MegaBox.Model
                             Image = "Assets/" + MegaManager.GetIconCategoryName(Contact.MegaFCategory[i].Trim()),
                             FileSize = MegaClient.arNodes[i].Size, // todo
                             IsLast = Contact.isEndOfDir[i], // todo
+                            DateModified = MegaClient.arNodes[i].ModificationDate.ToString(),
                         }
                     );
                     
                 }
+               
             }
+
+            // RND: Sorting 
+            items.Sort(delegate (DataItem x, DataItem y)
+            {
+                if (x.DateModified == null && y.DateModified == null) return 0;
+                else if (x.DateModified == null) return -1;
+                else if (y.DateModified == null) return 1;
+                else return x.DateModified.CompareTo(y.DateModified);
+            });
 
             return items;
         }//filter

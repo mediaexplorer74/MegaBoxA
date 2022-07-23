@@ -89,7 +89,8 @@ namespace MegaBox
             bool choosedresult = await DisplayAlert
              (
                 MegaClient.arNodes[idx].Name + " [" +
-                MegaClient.arNodes[idx].Size.ToString() + " bytes]",
+                //MegaClient.arNodes[idx].Size.ToString() + " bytes]",
+                MegaClient.arNodes[idx].ModificationDate.ToString() + " -modified]",
                 "Do you want to download & launch this file?",
                 "Yes", 
                 "No"

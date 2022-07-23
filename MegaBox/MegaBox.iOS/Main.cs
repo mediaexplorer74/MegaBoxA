@@ -5,7 +5,7 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
-namespace Timeline.iOS
+namespace MegaBox.iOS
 {
     public class Application
     {

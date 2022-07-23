@@ -124,12 +124,12 @@ namespace MegaBox
                             Image = "Assets/" + MegaManager.GetIconCategoryName(Contact.MegaFCategory[i].Trim()),
                             FileSize= MegaClient.arNodes[i].Size, // todo
                             IsLast = Contact.isEndOfDir[i], // todo
+                            DateModified = MegaClient.arNodes[i].ModificationDate.ToString(),
 
                         }
                     );
                 }
-
-
+               
             }
             catch (Exception ex)
             {

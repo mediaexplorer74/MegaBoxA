@@ -25,6 +25,8 @@ namespace MegaBox.Model
         public long FileSize { get; set; }
 
         public bool IsLast { get; set; } = false;
+
+        public string DateModified { get; set; }
     }
 
     

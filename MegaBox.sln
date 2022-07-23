@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.1340
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32519.111
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaBox.Android", "MegaBox\MegaBox.Android\MegaBox.Android.csproj", "{59D3D328-077B-4727-8446-48EDF078E79F}"
 EndProject
@@ -199,6 +199,7 @@ Global
 		{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}.Debug|x64.ActiveCfg = Debug|iPhone
 		{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}.Debug|x86.ActiveCfg = Debug|iPhone
+		{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}.Debug|x86.Build.0 = Debug|iPhone
 		{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}.Release|Any CPU.ActiveCfg = Release|iPhone
 		{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}.Release|ARM.ActiveCfg = Release|iPhone
 		{DA8F5095-A6C5-42AB-B09D-B4284804AE1B}.Release|iPhone.ActiveCfg = Release|iPhone

@@ -37,8 +37,11 @@
                     <RowDefinition Height="64" />
                     <RowDefinition Height="100" />
                 </Grid.RowDefinitions>
-                <Image Grid.RowSpan="2" Aspect="AspectFill" HorizontalOptions="Fill" VerticalOptions="Start" Source="MainBox1.png" />
-                <Image Aspect="Fill" Grid.RowSpan="2" HorizontalOptions="Fill" Source="FadeToWhite.png" />
+                <Image Grid.RowSpan="2" Aspect="AspectFill" 
+                       HorizontalOptions="Fill" VerticalOptions="Start" 
+                       Source="MainBox1.png" />
+                <Image Aspect="Fill" Grid.RowSpan="2" HorizontalOptions="Fill" 
+                       Source="FadeToWhite.png" />
             </Grid>
         </ListView.Footer>
 
@@ -60,13 +63,18 @@
 
                         <!--Label HorizontalOptions="Center" Style="{StaticResource ClassTimeLabel}" 
               Text="{Binding ClassTime, StringFormat='{0:H:mm}'}" /-->
-                        <Label 
+                        
+                        <!--Label 
                 HorizontalOptions="Center" 
                 Style="{StaticResource ClassTimeLabel}" 
-                Text="{Binding FileSize}" />
+                Text="{Binding FileSize}" /-->
 
+                            <Label 
+                HorizontalOptions="Center" 
+                Style="{StaticResource ClassTimeLabel}" 
+                Text="{Binding DateModified}" />
 
-                        <Label
+                            <Label
               Grid.Column="2"
               Margin="20,0"
               Style="{StaticResource ClassNameLabel}"

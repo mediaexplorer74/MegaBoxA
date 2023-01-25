@@ -1,7 +1,7 @@
 # MegaBoxA
 
 ## About
-Simple 4PDA Project Astoria Mega's appx file downloader & launcher (special for ProjectA Mobile Telegram group)
+Simple 4PDA Project Astoria Mega's appx file downloader & launcher (special 4PDA W10M fans)
 
 
 ## Screenshots

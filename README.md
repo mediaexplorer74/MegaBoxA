@@ -1,9 +1,8 @@
-# MegaBox 1.0
+# MegaBoxA
 
 ## About
-Simple Mega's file downloader & launcher (special for Windows 10 Mobile Telegram group))
+Simple 4PDA Project Astoria Mega's appx file downloader & launcher (special for ProjectA Mobile Telegram group)
 
-Used Mega Storage URL : https://mega.nz/folder/SKZxnQAR#EvlQqjMIVQwoxcje9r-jAw
 
 ## Screenshots
 ![screenshot1:UWP](Images/shot1.png)
@@ -15,9 +14,11 @@ Used Mega Storage URL : https://mega.nz/folder/SKZxnQAR#EvlQqjMIVQwoxcje9r-jAw
 - Autolaunch downloaded file (RnD, "As-Is")
 - App Search (sloooowest, but works)))
 
+## Status
+- Appx launches not ready 
 
 ## System requirements
-- Minimal Windows 10 Mobile os's build: 15063
+- Minimal Windows 10 Mobile os's build: 10570 (Astoria)
 
 ## Quick Start for your own experiments and my code modifications
 - Clone the repo from GitHub
@@ -29,4 +30,4 @@ to run this Xamarin app at Windows 10 (Desktop), choose target "x86".
 AS IS. No support. RnD only.
 
 ## ..
--- [m][e] 2022
+-- [m][e] 2023

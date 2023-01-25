@@ -40,5 +40,5 @@
     </None>
   </ItemGroup>
 
-  <ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadXFormsNugetUpgradeInfoBarMonkeyFinderHideInfoBar="True" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadXFormsNugetUpgradeInfoBarMegaBoxHideInfoBar="True" XamarinHotReloadXFormsNugetUpgradeInfoBarMonkeyFinderHideInfoBar="True" /></VisualStudio></ProjectExtensions>
 </Project>
